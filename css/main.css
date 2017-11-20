@@ -1,0 +1,83 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(../assets/sakura.jpg)
+}
+#trello{
+    display: inline-block;
+    height: 35px;
+    width: 100%;
+    background-color: rgba(2, 107, 167, 0.486);
+    text-align: center;
+    padding-top: 10px;
+    color: rgb(204,213,225);
+    font-size: 20px;
+    font-family: 'Galada', cursive;
+
+}
+
+
+#tab {
+    display: inline-block;
+    height: 25px;
+    width: 100%;
+    background-color: rgba(2, 109, 167, 0.205);
+    text-align: left;
+    padding-top: 10px;
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+#list {
+    height:250px;
+    width:250px;
+     text-align:center;
+   outline: 1px solid blue;
+   background-color: rgb(226,228,230);
+   font-family: 'Lato', sans-serif;   
+   display: inline-block;
+   position: relative;
+   top: 20px;
+
+  
+}
+#work {
+    height:100px;
+    width:220px;
+     margin:0px auto;
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    position: relative;
+    top: 20px;
+}
+
+#save {
+    display: inline-block;
+    position: relative;
+    right:80px;
+    background-color:rgb(90,172,68);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight:600;
+    width:85px;
+    height:28px;
+    border-radius:15%;
+}
+#add {
+    display: inline-block;
+    position: relative;
+    right:80px;
+    background-color:rgb(90,172,68);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight:600;
+    width:85px;
+    height:28px;
+    border-radius:15%;
+}
